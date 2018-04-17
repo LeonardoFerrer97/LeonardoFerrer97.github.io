@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Leonardo Ferrer</title>
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                    
+                    <!-- Optional theme -->
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+                        
+                        <!-- Latest compiled and minified JavaScript -->
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                        
+                        <style>
+                            header, footer {
+                                padding: 1em;
+                                color: white;
+                                background-color: #1ABB9A;
+                                clear: left;
+                                text-align: center;
+                            }
+                        body {
+                            position: relative;
+                        }
+                        #section1 {padding-top:50px;height:10000px;color: black; background-color:#F2F2F2;}
+                        .sidenav {
+                            height: 100%;
+                            width: 0;
+                            position: fixed;
+                            z-index: 1;
+                            top: 0;
+                            left: 0;
+                            background-color: #111;
+                            overflow-x: hidden;
+                            transition: 0.5s;
+                            padding-top: 60px;
+                            margin-top:50px;
+                        }
+                        
+                        .sidenav a {
+                            padding: 8px 8px 8px 32px;
+                            text-decoration: none;
+                            font-size: 25px;
+                            color: #818181;
+                            display: block;
+                            transition: 0.3s;
+                        }
+                        
+                        .sidenav a:hover {
+                            color: #f1f1f1;
+                        }
+                        
+                        .sidenav .closebtn {
+                            position: absolute;
+                            top: 0;
+                            right: 25px;
+                            font-size: 36px;
+                            margin-left: 50px;
+                        }
+                        
+                        @media screen and (max-height: 450px) {
+                            .sidenav {padding-top: 15px;}
+                            .sidenav a {font-size: 18px;}
+                        }
+                        @media screen and (max-height: 450px) {
+                            .sidenav {padding-top: 15px;}
+                            .sidenav a {font-size: 18px;}
+                            img.android{
+                                border-radius: 50%;
+                                height: 60px;
+                                width: 60px;
+                            }
+                            p {
+                                line-height: 28px;
+                                margin-bottom: 25px;
+                                font-size: 16px;
+                            }
+                            .card {
+                                position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                -moz-transform: translate(-50%, -50%)
+                                -webkit-transform: translate(-50%, -50%)
+                                -ms-transform: translate(-50%, -50%)
+                                -o-transform: translate(-50%, -50%)
+                                transform: translate(-50%, -50%);
+                            }
+                        </style>
+                        </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://drive.google.com/open?id=1xy54efpcyjSGnTljPtpy2VJBl-vdXNLh"target="_blank">Curriculum</a>
+            <a href="Areadeinteresse.html">Area of interest</a>
+            <a href="Alittlemoreaboutme.html">A Little more about me</a>
+            
+        </div>
+        <div class="main">
+            <nav class="navbar navbar-light bg faded navbar-fixed-top"  style="background-color: #1ABB9A;">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"style="color: white">Leonardo Ferrer Silva Pereira</a>
+                    </div>
+                    <div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html" style="color: white" >Home</a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="section1" class="container-fluid">
+                <div class="col-lg-10 col-lg-offset-0 centered">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; A little more</span>
+                </div>
+                <div class="col-lg-10 col-lg-offset-5 centered col-sm-10 col-sm-offset-5 centered col-md-10 col-md-offset-5 centered">
+                    <h1 style="font-family:Helvetica;">Áreas de interesse</h1>
+                </div>
+            </div>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        
+    </body>
+</html>
+
